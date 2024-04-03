@@ -1,0 +1,1 @@
+To use the theme provided, add the config.toml file to the folder .streamlit //this folder may be in admin or the environment where streamlit was installed
