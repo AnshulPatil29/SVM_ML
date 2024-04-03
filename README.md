@@ -9,3 +9,4 @@
 ### Model evaluation 
 ##### The models were evaluated using classification report and confusion matrix, both of which are coded from scratch.
 ##### The maximum accuracy achieved was using SVM, which was 87%.
+The dataset was larger than 25 MB zipped hence here is the link for the dataset download: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
