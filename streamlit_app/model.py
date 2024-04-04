@@ -9,13 +9,13 @@ st.set_page_config(
         initial_sidebar_state="expanded",
 )
 
-vectorizer=pickle.load(open(r"C:\Users\admin\Documents\Current_Workspace\Programming\SVM\Pickle\Main Models\vectorizer_tfid.pkl","rb"))
-model_SVM = pickle.load(open(r"C:\Users\admin\Documents\Current_Workspace\Programming\SVM\Final_pickles\classifier_SVM.pkl","rb"))
-model_NaiveBayes= pickle.load(open(r"C:\Users\admin\Documents\Current_Workspace\Programming\SVM\Final_pickles\classifier_NaiveBayes.pkl","rb"))
+vectorizer=pickle.load(open("vectorizer_tfid.pkl","rb"))
+model_SVM = pickle.load(open("classifier_SVM.pkl","rb"))
+model_NaiveBayes= pickle.load(open("classifier_NaiveBayes.pkl","rb"))
 model_dictionary={'SVM':model_SVM,
                   'Naive Bayes':model_NaiveBayes}
-SVM_piechart=pickle.load(open(r"C:\Users\admin\Documents\Current_Workspace\Programming\SVM\Final_pickles\svm_pie.pkl","rb"))
-NB_piechart=pickle.load(open(r"C:\Users\admin\Documents\Current_Workspace\Programming\SVM\Final_pickles\nb_pie.pkl","rb"))
+SVM_piechart=pickle.load(open("svm_pie.pkl","rb"))
+NB_piechart=pickle.load(open("nb_pie.pkl","rb"))
 chart_dict={'SVM':SVM_piechart,
             'Naive Bayes':NB_piechart}
 #test fuction
